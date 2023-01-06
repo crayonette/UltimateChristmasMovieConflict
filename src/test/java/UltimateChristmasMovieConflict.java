@@ -9,6 +9,6 @@ public class UltimateChristmasMovieConflict{
     void ultimateChristmasMovieConflict(){
         open("https://www.imdb.com/");
         $("#suggestion-search").click();
-        $("#suggestion-search").setValue("Home Alone").pressEnter();
+        $("#suggestion-search").setValue("Die Hard").pressEnter();
     }
 }
